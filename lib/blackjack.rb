@@ -34,6 +34,7 @@ def hit?(number)
   prompt_user
   get_user_input
   if prompt_user == h
+  end
 end
 
 def invalid_command
