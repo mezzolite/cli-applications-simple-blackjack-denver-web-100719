@@ -33,10 +33,10 @@ end
 def hit?(player_total)
   prompt_user
   user_input = get_user_input
-  if user_input == h 
+  if user_input == "h" 
     new_card = deal_card
     player_total += new_card
-  elsif user_input == s 
+  elsif user_input == "s"
     player_total
   else 
     invalid_command
