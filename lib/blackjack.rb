@@ -37,7 +37,7 @@ def hit?(player_total)
     new_card = deal_card
     player_total += new_card
   else user_input == s 
-  elsif invalid_command
+  else invalid_command
   end
   player_total
 end
