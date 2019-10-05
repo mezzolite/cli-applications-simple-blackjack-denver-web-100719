@@ -43,7 +43,7 @@ def hit?(card_total)
     prompt_user
     get_user_input
   end
-  player_total
+  card_total
 end
 
 def invalid_command
