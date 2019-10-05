@@ -30,11 +30,16 @@ def initial_round
   return card_total
 end
 
-def hit?(number)
+def hit?(player_total)
   prompt_user
-  get_user_input
-  if prompt_user == h
+  user_input = get_user_input
+  if user_input == h 
+    new_card = deal_card
+    player_total += new_card
+  else user_input == s 
+  elsif invalid_command
   end
+  player_total
 end
 
 def invalid_command
