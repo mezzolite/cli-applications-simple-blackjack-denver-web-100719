@@ -40,6 +40,7 @@ def hit?(player_total)
     player_total
   else 
     invalid_command
+    prompt_user
   end
   player_total
 end
